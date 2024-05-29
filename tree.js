@@ -3,7 +3,7 @@ d3.json('data.json').then(data => {
 
     const margin = { top: 20, right: 90, bottom: 30, left: 90 },
         width = 960 - margin.left - margin.right,
-        height = 600 - margin.top - margin.bottom;
+        height = 10000 - margin.top - margin.bottom;
 
     const svg = d3.select("svg")
         .attr("width", width + margin.right + margin.left)
