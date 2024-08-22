@@ -1,4 +1,4 @@
-d3.json('data.json').then(data => {
+d3.json('data1.json').then(data => {
     d3.json('data.json').then(data => {
         const treeData = buildTree(data);
 
